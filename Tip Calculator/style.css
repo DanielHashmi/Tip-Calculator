@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(40 103 45);
+}
+
+.mainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 548px;
+    height: 391px;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin-left: 237px;
+    box-shadow: 0px 0px 24px 3px;
+}
+
+.secDiv {
+    width: 402px;
+    height: 271px;
+    margin-top: 30px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+}
+
+.billInp {
+    height: 30px;
+    width: 377px;
+    font-size: 26px;
+}
+
+.guestsInp {
+    height: 30px;
+    width: 377px;
+    font-size: 26px;
+}
+
+.label {
+    margin-top: 30px;
+}
+
+#quality {
+    height: 34px;
+    width: 400px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 13px;
+    height: 40px;
+    width: 100px;
+    background-color: beige;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.btn:hover {
+    /* background-color: rgb(231, 231, 208); */
+    box-shadow: 1px 0px 7px -2px;
+}
+
+.sec1 {
+    margin-left: 22px;
+}
+
+.fa {
+    position: relative;
+    top: 31.7px;
+    right: 117px;
+    height: 33px;
+    width: 34px;
+}
+
+.fa1 {
+    position: relative;
+    right: 155px;
+    top: 32.2px;
+    height: 33px;
+    width: 34px;
+}
+
+.sec3 {
+    margin-right: 20px;
+}
+
+.ani {
+    display: none;
+    background-color: #00c12082;
+    height: 70px;
+    width: 329px;
+    position: absolute;
+    top: 800px;
+    border-radius: 2px;
+    /* transition: 3s; */
+    animation: come 0.5s, go 0.5s 2.5s;
+}
+
+@keyframes come{
+    from{top:930px;opacity: 0;}
+    to{top:800px;opacity: 1;}
+}
+@keyframes go{
+    from{top:800px;opacity: 1;}
+    to{top:930px;opacity: 0;}
+}
+.para{
+    font-size: 31px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}

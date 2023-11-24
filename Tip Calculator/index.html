@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <title>document</title>
+</head>
+
+<body>
+    <div class="mainDiv">
+        <div class="headerDiv">
+            <h1 class="h1">Tip Calculator</h1>
+        </div>
+        <div class="secDiv">
+            <div class="sec1">
+                <label class="l" for="Tip">Bill Amount</label>
+                <button class="fa"><i class="fas fa-dollar-sign"></i></button>
+                <input type="number" class="billInp">
+            </div>
+
+            <div class="sec1">
+                <label class="l" for="Tip">Number of Guests</label>
+                <button class="fa1"><i class="fas fa-male"></i></button>
+                <input type="number" class="guestsInp">
+            </div>
+            <div class="sec3">
+
+                <label for="Tip">Service Quality</label>
+                <select id="quality">
+                    <option>Choose...</option>
+                    <option value="0.3">30% - Amazing</option>
+                    <option value="0.25">25% - Very Good</option>
+                    <option value="0.2">20% - Good</option>
+                    <option value="0.15">15% - It was OK</option>
+                    <option value="0.1">10% - Bad</option>
+                    <option value="0.05">5% - Very Bad</option>
+                </select>
+            </div>
+        </div>
+        <button class="btn">Calculate</button>
+        <div class="ani">
+            <p class="para"></p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
